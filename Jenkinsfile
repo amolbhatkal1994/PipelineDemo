@@ -5,7 +5,7 @@ agent any
 
 stages
 {
-   statge('stage-1')
+   stage('stage-1')
    { steps
    {
         sh 'echo this is jenkins'
@@ -21,7 +21,5 @@ stages
    }
 
 }
-
-
 
 }
